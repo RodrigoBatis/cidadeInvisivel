@@ -1,0 +1,65 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+main h1 {
+  font-size: 200px;
+  color: #dcff1700;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  margin-top: -270px;
+}
+
+
+main p {
+  font-size: 1.5rem;
+  width: 300px;
+  font-weight: 400;
+  color: white;
+}
+
+.lenda {
+  display: flex;
+}
+
+main .informações {
+  list-style: none;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main .informações li {
+  border-right-style: solid;
+  border-right-color: red;
+  border-right-width: 2px;
+  width: 30%;
+  color: #fff;
+  
+}
+
+main .informações li:nth-child(3) {
+  border-right-style: none;
+}
+
+main .informações li h3 {
+  font-style: italic;
+  font-size: 1.75rem;
+}
+
+main .informações li span {
+  font-size: 0.9rem;
+}
+
+div > h2 {
+  color: #dd4c4c;
+  font-size: 50px;
+  transform: rotate(-90deg);
+}

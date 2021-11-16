@@ -1,0 +1,80 @@
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+   
+  }
+
+  main .imagemP{
+      width: 200px;
+      height: 200px;
+      margin-top: -20px;
+  }
+  main .nome{
+    color: white;
+    margin-top: 50px;
+    font-size: 90px;
+  }
+
+  main .descricao{
+    color: white;
+    font-size: 50;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  button {
+    border-style: none;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    border-radius: 30px;
+    font-family:'Ubuntu Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5px; 
+    margin-top: 20px;
+}
+button.git{
+    color: #ffffff;
+    background-color: #000000;
+}
+button.git:hover {
+    
+    background-color:#3bf8ff42;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #000000;
+    color: #000000;
+    border: 2px solid #000000;
+
+}
+
+button.linkedin{
+    background-color: #0a66c2;
+    color: white;
+}
+
+button.linkedin:hover {
+    background-color: #3bf8ff42;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #000000;
+    color: #000000;
+    border: 2px solid #000000;
+
+}
